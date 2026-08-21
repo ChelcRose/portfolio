@@ -1,15 +1,18 @@
 {
-  "name": "John Doe",
+  "name": "Chelsea Pimentel",
   "photoUrl": "favicon.svg",
-  "location": "City, Country",
+  "location": "Cebu City, Philippines",
   "availability": "Available for hire",
-  "description": "A brief, compelling introduction about who you are and what you do. Mention your core philosophy, your passion for building digital products, and your drive for creating efficient, high-impact solutions.",
-  "descriptionHtml": "A brief, compelling introduction about who you are and what you do. Mention your core <span class='text-accent font-bold'>philosophy</span>, your passion for building digital products, and your drive for creating <span class='text-accent font-bold'>efficient</span>, <span class='text-accent font-bold'>high-impact</span> solutions.",
-  "webpageTitle": "John Doe | Lead Software Engineer",
+
+  "description": "I’m a Computer Science student at the University of San Carlos with interests in full-stack development, AI, and machine learning. I enjoy learning new technologies, building practical solutions, and solving complex problems efficiently.",
+
+  "descriptionHtml": "I’m a Computer Science student at the University of San Carlos with interests in <span class='text-accent font-bold'>Full-Stack Development</span>, <span class='text-accent font-bold'>Cybersecurity</span>, and <span class='text-accent font-bold'>AI/Machine Learning</span>. I enjoy learning new technologies, building practical solutions, and solving complex problems <span class='text-accent font-bold'>efficiently</span>.",
+
+  "webpageTitle": "Chelsea Pimentel",
   "resumeUrl": "https://example-files.online-convert.com/document/pdf/example.pdf",
 
   "_seo_comment": "SEO fields — update these along with your personal info for best search engine visibility.",
-  "jobTitle": "Lead Software Engineer",
+  "jobTitle": "Aspiring Full-Stack Developer",
   "keywords": "John Doe, software engineer, Flutter, FastAPI, mobile development, portfolio",
   "siteUrl": "https://your-domain.com",
   "lang": "en",
@@ -20,14 +23,14 @@
   "socials": [
     {
       "name": "GitHub",
-      "url": "https://github.com/[YOUR_USER_NAME]",
+      "url": "https://github.com/ChelcRose",
       "icon": "mdi:github",
       "label": "View Profile",
       "showInContact": true
     },
     {
       "name": "LinkedIn",
-      "url": "https://linkedin.com/in/[YOUR_USER_NAME]",
+      "url": "https://www.linkedin.com/in/chelseapimentel/",
       "icon": "mdi:linkedin",
       "label": "Connect",
       "showInContact": true
@@ -48,14 +51,14 @@
     },
     {
       "name": "Email",
-      "url": "mailto:your-mail@example.com",
+      "url": "mailto:pimentelchelsea@gmail.com",
       "icon": "mdi:email",
       "label": "Send Email",
       "showInContact": true
     },
     {
       "name": "WhatsApp",
-      "url": "https://wa.me/[YOUR_WHATSAPP_NUMBER]",
+      "url": "#",
       "icon": "mdi:whatsapp",
       "label": "Send Message",
       "showInContact": true

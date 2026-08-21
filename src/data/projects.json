@@ -1,20 +1,38 @@
 [
   {
-    "title": "Awesome Website",
-    "description": "A high-performance, SEO-optimized web application built with modern frameworks to showcase technical expertise.",
-    "images": ["astro-01.webp", "astro-02.jpeg"],
-    "tech": ["Astro", "Tailwind"],
+    "title": "Kwenta",
+    "description": "A Philippine-focused personal finance web application for managing accounts, transactions, budgets, and savings goals. Built with secure authentication, user-specific financial data isolation, and transaction-based balance calculations.",
+    "images": ["kwenta-01.webp", "kwenta-02.webp"],
+    "tech": ["C#", ".NET 10", "ASP.NET Core", "Blazor", "EF Core", "SQLite"],
     "platforms": ["web"],
-    "link": "https://astro.build/themes/details/career-portfolio-data-driven-astro-ssg/",
-    "category": "Published Website"
+    "link": "#",
+    "category": "Full-Stack"
   },
   {
-    "title": "Demo Mobile App",
-    "description": "A high-performance mobile application built with modern frameworks to showcase technical expertise.",
-    "images": ["astro-02.jpeg", "#"],
-    "tech": ["Flutter", "Dart", "REST API"],
-    "platforms": ["apple-ios", "android"],
-    "link": "https://github.com/nbakh16/career-portfolio-template",
-    "category": "Hobby"
+    "title": "Project IMULAT",
+    "description": "An AI-assisted misinformation detection web application with responsive interfaces for authentication, profile management, claim review, filtering, validation, and peer-review reporting.",
+    "images": ["imulat-01.webp", "imulat-02.webp"],
+    "tech": ["React.js", "JavaScript", "Tailwind CSS", "Figma"],
+    "platforms": ["web"],
+    "link": "#",
+    "category": "Web Application"
+  },
+  {
+    "title": "SmarTech",
+    "description": "An accessibility-focused Android mobile assistant for visually impaired users featuring voice commands, spoken guidance, haptic feedback, authentication, profiles, and emergency-contact management.",
+    "images": ["smartech-01.webp", "smartech-02.webp"],
+    "tech": ["Java", "Android Studio", "Firebase", "Cloud Firestore", "SpeechRecognizer", "Text-to-Speech"],
+    "platforms": ["android"],
+    "link": "#",
+    "category": "Mobile Application"
+  },
+  {
+    "title": "Project LIBRA",
+    "description": "Add a short description of what Project LIBRA does and the main problem it solves.",
+    "images": ["libra-01.webp", "libra-02.webp"],
+    "tech": ["Add", "Your", "Tech Stack"],
+    "platforms": ["web"],
+    "link": "#",
+    "category": "Project"
   }
 ]
