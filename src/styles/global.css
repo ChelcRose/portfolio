@@ -41,7 +41,7 @@
   /* Default Theme - Dark */
   :root,
   [data-theme="default-dark"] {
-    --color-background: #0F0D29;
+    --color-background: #06051d;
     --color-accent: #A78BFA;
     --color-maintext: #FFFFFF;
     --color-subtext: #b2bed1;
@@ -76,14 +76,26 @@
   }
 
   /* Modern Innovator - Dark */
-  [data-theme="innovator-dark"] {
+  /*[data-theme="innovator-dark"] {
     --color-background: #0B0F0E;
-    --color-accent: #BEF264;
+    --color-accent: #7800e1;
+     --color-accent: #DF00FF; //PURPLE
     --color-maintext: #FFFFFF;
     --color-subtext: #c4c3c3;
-    --color-textrain: #567b6c;
+    --color-textrain: #68567b;
   }
+  */
 
+
+[data-theme="innovator-dark"] {
+  --color-background: #0D0912;
+  --color-accent: #C026FF;
+  --color-maintext: #FFFFFF;
+  --color-subtext: #C4C3C6;
+  --color-textrain: #714887;
+}
+  
+ 
   /* Modern Innovator - Light */
   [data-theme="innovator-light"] {
     --color-background: #F0FDF4;
