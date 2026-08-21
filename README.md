@@ -1,123 +1,53 @@
-# CareerPortfolio: Data-Driven Astro SSG
-Live Demo: [careerportofio.netlify.app](https://careerportofio.netlify.app)
+# Portfolio Website
 
-[![Astro](https://img.shields.io/badge/Astro-FF5D01?logo=astro&logoColor=white)](https://astro.build/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Contributions Welcome](https://img.shields.io/badge/🤝_Contributions-Welcome-blue)](CONTRIBUTING.md)
+A personal portfolio website showcasing my projects, skills, and experience.
 
-A high-performance, responsive portfolio built with **Astro**, **Tailwind CSS**, and **Native Browser Animations**. Designed to be 100% data-driven and easy to customize as a reusable template.
+[Visit Site](https://your-site.com/)
 
-## 🌟 Highlights
-- **Zero-JS by Default:** Leveraging Astro's islands architecture.
-- **JSON-First:** Update your information in `src/data/` without touching any code.
-- **SEO & AI Ready:** Auto-generated `sitemap.xml`, `robots.txt`, and `/llms.txt` endpoint for AI/LLM crawlers, full Open Graph/Twitter Card support and JSON-LD structured data.
-- **Built-in Themes**: Switch between multiple professional color palettes and light/dark modes from a single config file.
-- **Fully Responsive:** Optimized for mobile, tablet, and desktop.
-- **Performance:** Optimized for perfect Lighthouse scores.
+## About The Project
 
-## 🛠️ Tech Stack
-- **Frontend:** [Astro](https://astro.build/) (Static Site Generation)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **Icons:** [Iconify](https://iconify.design/) via `astro-icon`
-- **Deployment:** [Netlify](https://www.netlify.com)
-- **Backend:** [FastAPI](https://fastapi.tiangolo.com/) *(Works without backend — open source release coming soon)*
+This is my personal portfolio website built using **Astro**, **TypeScript**, and **Tailwind CSS**. The website serves as a place to showcase my development projects, skills, and experience.
 
-## 🚀 Getting Started
-Follow these instructions to get a local copy up and running.
+## Built With
 
-### Prerequisites
-Make sure you have **Astro v6** and **Node.js** (v22.12.0 or higher) installed on your machine.
+* [Astro](https://astro.build/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Tailwind CSS](https://tailwindcss.com/)
+
+## Getting Started
+
+To get a local copy of the project up and running, follow these steps.
 
 ### Installation
-1. Click **Use this template** on this repository.
-2. Choose **Create a new repository**.
-3. Clone your new repository: `git clone <your-repo-url>`
-4. Navigate to your repo: `cd <your-repo-name>`
-5. Install dependencies: `npm install`
-6. Start development server: `npm run dev`
-7. Update your content in `/src/data/`
-8. Build and deploy on your preferred platform
 
+1. Clone the repository:
 
-## 🛠️ How to Customize
-To make this portfolio yours, simply edit the JSON files in `src/data/`.
-
-### 🎨 Switching Themes
-This template comes with multiple built-in color palettes. To change the theme of your portfolio, open `src/config.ts` and update the `baseTheme` variable to one of the available options:
-
-```typescript
-export const SITE_CONFIG = {
-  // Options: 'default', 'strategic', 'innovator', 'executive'
-  baseTheme: 'default', 
-};
-```
-*(The template will automatically handle the dark/light mode toggles for whichever base theme you choose!)*
-
-### 📁 Directory Structure
-```
-├── public/              # Global static assets (placeholder.jpg, favicon)
-├── src/
-│   ├── assets/          # Project & Profile images (Supports automatic Astro optimization)
-│   ├── components/      # Reusable Astro components
-│   ├── data/            # JSON files for project data
-│   ├── layouts/         # Layout templates with Meta tags
-│   ├── pages/           # Site routes (index.astro)
-│   └── styles/          # Global CSS styles
-│   └── config.ts        # Global site configuration
-├── astro.config.mjs     # Astro configuration
-└── tsconfig.json        # TypeScript configuration
+```bash
+git clone https://github.com/ChelcRose/portfolio
 ```
 
-### 🔍 SEO & AI Optimization
-All SEO and AI metadata is driven from `src/data/home.json`. Update the fields below to improve search engine, social media and AI crawler visibility:
+2. Install the required packages:
 
-| Field | Description |
-| :------------ | :----------------------------------------------------------- |
-| `siteUrl` | Your deployed domain (e.g. `https://yourname.dev`). Required for canonical URLs, sitemap and absolute OG image links. |
-| `webpageTitle` | Page tab title and Open Graph title tag. |
-| `description` | Primary intro summary used for meta description, Open Graph, Twitter preview cards and `/llms.txt`. |
-| `lang` | Page language code (e.g. `en`, `fr`, `de`). Sets the `<html lang>` attribute. |
-| `jobTitle` | Your role — included in JSON-LD structured data shown to search engines and `/llms.txt`. |
-| `keywords` | Comma-separated keywords for the `<meta name="keywords">` tag. |
-| `twitterHandle` | Your Twitter/X username (with or without `@`). Enables Twitter Card attribution. |
-| `ogImageUrl` | Path to your Open Graph preview image. Use a **1200×630 px** image for best results across all platforms. |
+```bash
+npm install
+```
 
-> **Automatic Features:**
-> - `sitemap-index.xml` & `robots.txt`: Auto-generated at build time.
-> - `/llms.txt`: Dynamically generated Markdown portfolio route for AI agents and LLM web crawlers (powered by [`src/pages/llms.txt.ts`](file:///Users/nabil/_projects/astro-trial/career-portfolio-template/src/pages/llms.txt.ts)).
+3. Start the application:
 
+```bash
+npm run dev
+```
 
+4. Open your browser and visit:
 
-### 📚 Useful commands and links for reference:
+```text
+http://localhost:4321
+```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## License
 
-Tailwind CSS: `npx astro add tailwind`
+Distributed under the MIT License. See `LICENSE` for more information.
 
-Inter font: `npm install @fontsource-variable/inter` 
+## Contact
 
-Space Grotesk font: `npm install @fontsource-variable/space-grotesk`
-
-Astro-icon: `npx astro add astro-icon`
-
-Material Desing Icons: `npm install @iconify-json/mdi`
-
-https://docs.astro.build/en/guides/styling/#add-tailwind-4
-
-https://www.astroicon.dev
-
-https://icon-sets.iconify.design/mdi/?category=Material
-
-## 🤝 Contributing
-Contributions are welcome!  
-Please read the [Contributing Guide](CONTRIBUTING.md) before opening a PR.
-
-## 📝 License
-This project is licensed under the [MIT License](LICENSE)
+Chelsea Pimentel - [pimentelchelsea@gmail.com](mailto:pimentelchelsea@gmail.com)
