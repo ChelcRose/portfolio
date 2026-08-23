@@ -13,11 +13,11 @@
 
   "_seo_comment": "SEO fields — update these along with your personal info for best search engine visibility.",
   "jobTitle": "Aspiring Full-Stack Developer",
-  "keywords": "John Doe, software engineer, Flutter, FastAPI, mobile development, portfolio",
-  "siteUrl": "https://your-domain.com",
+  "keywords": "Chelsea Pimentel, computer science, full-stack developer, C#, .NET, ASP.NET Core, Blazor, Java, React, portfolio",
+  "siteUrl": "https://portfolio-chelsea17.vercel.app/",
   "lang": "en",
   "twitterHandle": "",
-  "ogImageUrl": "/placeholder.jpeg",
+  "ogImageUrl": "/ogimg.jpg",
 
   "_comment": "Add your social links below. Leave the 'url' empty to hide the icon. Set 'showInContact' to true or false to control if it appears in the Contact section.",
   "socials": [
