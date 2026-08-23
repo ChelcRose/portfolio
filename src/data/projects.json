@@ -11,10 +11,10 @@
   {
     "title": "Project IMULAT",
     "description": "An AI-assisted misinformation detection web application with responsive interfaces for authentication, profile management, claim review, filtering, validation, and peer-review reporting.",
-    "images": ["imulat-01.webp", "imulat-02.webp"],
-    "tech": ["React.js", "JavaScript", "Tailwind CSS", "Figma"],
+    "images": ["imulat-01.png", "imulat-02.webp"],
+    "tech": ["React.js", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Cohere API"],
     "platforms": ["web"],
-    "link": "#",
+    "link": "https://github.com/Lycoris21/Project-Imulat",
     "category": "Web Application"
   },
   {

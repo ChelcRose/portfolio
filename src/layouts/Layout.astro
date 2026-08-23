@@ -76,7 +76,7 @@ const ogLocale = lang.includes('_') ? lang : `${lang}_${lang.toUpperCase()}`;
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang={lang} data-theme={defaultTheme}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -115,26 +115,7 @@ const ogLocale = lang.includes('_') ? lang : `${lang}_${lang.toUpperCase()}`;
     <!-- JSON-LD STRUCTURED DATA -->
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 
-    <!-- THEME TOGGLE SCRIPT -->
-    <meta name="theme-color" content="#000000" id="theme-color-meta" />
-    <script is:inline define:vars={{ baseTheme, defaultTheme }}>
-      const savedTheme = localStorage.getItem('theme');
-      let activeTheme = defaultTheme;
-
-      if (savedTheme && savedTheme.startsWith(baseTheme)) {
-        activeTheme = savedTheme;
-      }
-      
-      document.documentElement.setAttribute('data-theme', activeTheme);
-      localStorage.setItem('theme', activeTheme);
-
-      // Set mobile status bar mode
-      const isDark = activeTheme.endsWith('-dark');
-      const meta = document.getElementById('theme-color-meta');
-      if (meta) {
-        meta.setAttribute('content', isDark ? '#000000' : '#FFFFFF');
-      }
-    </script>
+  <meta name="theme-color" content="#000000" />
 
   </head>
   <body class="bg-container relative min-h-screen overflow-x-hidden antialiased">
