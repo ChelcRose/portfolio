@@ -1,33 +1,45 @@
 {
   "categories": [
     {
+      "title": "Languages",
+      "skills": [
+        { "name": "C#", "icon": "devicon:csharp" },
+        { "name": "Java", "icon": "skill-icons:java-dark" },
+        { "name": "Python", "icon": "skill-icons:python-dark" },
+        { "name": "JavaScript", "icon": "skill-icons:javascript" },
+        { "name": "PHP", "icon": "skill-icons:php-dark" },
+        { "name": "C", "icon": "devicon:c" }
+      ]
+    },
+        {
+      "title": "Web & Backend",
+      "skills": [
+        { "name": ".NET 10", "icon": "skill-icons:dotnet" },
+        { "name": "ASP.NET Core", "icon": "devicon:dotnetcore" },
+        { "name": "Blazor", "icon": "devicon:blazor" },
+        { "name": "React", "icon": "skill-icons:react-dark" },
+        { "name": "Node.js", "icon": "skill-icons:nodejs-dark" },
+        { "name": "Express", "icon": "skill-icons:expressjs-dark" },
+        { "name": "Spring Boot", "icon": "skill-icons:spring-dark" },
+        { "name": "REST APIs", "icon": "mdi:api" }
+      ]
+    },
+     {
+      "title": "Databases & ORM",
+      "skills": [
+        { "name": "SQLite", "icon": "skill-icons:sqlite" },
+        { "name": "MySQL", "icon": "skill-icons:mysql-dark" },
+        { "name": "MongoDB", "icon": "skill-icons:mongodb" },
+        { "name": "Entity Framework Core", "icon": "devicon:dotnetcore" },
+        { "name": "JPA / Hibernate", "icon": "devicon:hibernate" }
+      ]
+    },
+    {
       "title": "Frontend",
       "skills": [
-        { "name": "React", "level": 3, "icon": "skill-icons:react-dark" },
-        { "name": "Next.js", "level": 2, "icon": "skill-icons:nextjs-dark" },
-        { "name": "TypeScript", "level": 3, "icon": "skill-icons:typescript" },
-        { "name": "JavaScript", "level": 3, "icon": "skill-icons:javascript" },
-        { "name": "Astro", "level": 2, "icon": "skill-icons:astro" },
-        { "name": "HTML", "level": 3, "icon": "skill-icons:html" },
-        { "name": "CSS", "level": 3, "icon": "skill-icons:css" },
-        { "name": "Tailwind CSS", "level": 2, "icon": "skill-icons:tailwindcss-dark" }
-      ]
-    },
-    {
-      "title": "Backend & Tools",
-      "skills": [
-        { "name": "Node.js", "level": 3, "icon": "skill-icons:nodejs-dark" },
-        { "name": "Express", "level": 2, "icon": "skill-icons:expressjs-dark" },
-        { "name": "Docker", "level": 2, "icon": "skill-icons:docker" },
-        { "name": "Git", "level": 3, "icon": "skill-icons:git" }
-      ]
-    },
-    {
-      "title": "Database",
-      "skills": [
-        { "name": "PostgreSQL", "level": 2, "icon": "skill-icons:postgresql-dark" },
-        { "name": "MongoDB", "level": 2, "icon": "skill-icons:mongodb" },
-        { "name": "SQLite", "level": 3, "icon": "skill-icons:sqlite" }
+        { "name": "HTML", "icon": "skill-icons:html" },
+        { "name": "CSS", "icon": "skill-icons:css" },
+        { "name": "Tailwind CSS", "icon": "skill-icons:tailwindcss-dark" }
       ]
     }
   ]
