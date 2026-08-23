@@ -6,25 +6,29 @@ const certifications = [
     title: "Fundamental Information Technology Engineers Certification",
     issuer: "PhilNITS",
     date: "Apr. 2026",
-    icon: "mdi:certificate-outline"
+    icon: "mdi:certificate-outline",
+    url: "https://philnits.org/passers-fe/#:~:text=FE4600120,pimentel%20chelsea%20rose"
   },
   {
     title: "TOPCIT — Level 2",
     issuer: "Ministry of Science and ICT, South Korea",
     date: "Jun. 2025",
-    icon: "mdi:certificate-outline"
+    icon: "mdi:certificate-outline",
+    url: "https://github.com/ChelcRose/certificates/blob/main/TOPCIT.pdf"
   },
   {
     title: "Junior Cybersecurity Analyst Career Path",
     issuer: "Cisco Networking Academy",
-    date: "2025",
-    icon: "mdi:shield-check-outline"
+    date: "Dec. 2025",
+    icon: "mdi:shield-check-outline",
+    url: "https://www.credly.com/badges/48a0da24-532b-4253-8de2-5f0099344829"
   },
   {
     title: "Associate Data Analyst",
     issuer: "DataCamp",
-    date: "2024",
-    icon: "mdi:chart-box-outline"
+    date: "May. 2024",
+    icon: "mdi:chart-box-outline",
+    url: "https://github.com/ChelcRose/certificates/blob/main/ASSOCIATE%20DATA%20ANALYST.pdf"
   }
 ];
 ---
@@ -41,27 +45,30 @@ const certifications = [
 
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {certifications.map((cert) => (
-          <div class="contact-card group p-8 bg-accent/5 border border-accent/10 rounded-2xl hover:border-accent/40 hover:bg-accent/10 transition-all duration-300">
-            
-            <Icon
-              name={cert.icon}
-              class="w-10 h-10 text-accent mb-4 group-hover:scale-110 transition-transform"
-            />
+  <a
+    href={cert.url}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="contact-card group block p-8 bg-accent/5 border border-accent/10 rounded-2xl hover:border-accent/40 hover:bg-accent/10 transition-all duration-300 cursor-pointer"
+  >
+    <Icon
+      name={cert.icon}
+      class="w-10 h-10 text-accent mb-4 group-hover:scale-110 transition-transform"
+    />
 
-            <h3 class="text-maintext font-bold mb-2">
-              {cert.title}
-            </h3>
+    <h3 class="text-maintext font-bold mb-2">
+      {cert.title}
+    </h3>
 
-            <p class="text-subtext text-sm mb-3">
-              {cert.issuer}
-            </p>
+    <p class="text-subtext text-sm mb-3">
+      {cert.issuer}
+    </p>
 
-            <span class="inline-flex items-center text-[10px] uppercase tracking-widest text-accent/70 font-mono border border-accent/20 rounded-full px-2.5 py-0.5">
-              {cert.date}
-            </span>
-
-          </div>
-        ))}
+    <span class="inline-flex items-center text-[10px] uppercase tracking-widest text-accent/70 font-mono border border-accent/20 rounded-full px-2.5 py-0.5">
+      {cert.date}
+    </span>
+  </a>
+))}
       </div>
 
     </div>
