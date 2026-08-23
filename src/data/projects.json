@@ -10,7 +10,7 @@
   },
   {
     "title": "Project IMULAT",
-    "description": "An AI-assisted misinformation detection web application with responsive interfaces for authentication, profile management, claim review, filtering, validation, and peer-review reporting.",
+    "description": "An AI-powered fact-checking platform that combines automated credibility scoring with peer review to verify user-submitted claims.",
     "images": ["imulat-01.png", "imulat-02.webp"],
     "tech": ["React.js", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Cohere API"],
     "platforms": ["web"],
@@ -18,21 +18,12 @@
     "category": "Web Application"
   },
   {
-    "title": "SmarTech",
-    "description": "An accessibility-focused Android mobile assistant for visually impaired users featuring voice commands, spoken guidance, haptic feedback, authentication, profiles, and emergency-contact management.",
-    "images": ["smartech-01.webp", "smartech-02.webp"],
-    "tech": ["Java", "Android Studio", "Firebase", "Cloud Firestore", "SpeechRecognizer", "Text-to-Speech"],
-    "platforms": ["android"],
-    "link": "#",
-    "category": "Mobile Application"
-  },
-  {
     "title": "Project LIBRA",
-    "description": "Add a short description of what Project LIBRA does and the main problem it solves.",
-    "images": ["libra-01.webp", "libra-02.webp"],
-    "tech": ["Add", "Your", "Tech Stack"],
+    "description": "A full-stack library management system that streamlines book cataloging, borrowing, returns, and user management.",
+    "images": ["libra-01.png", "libra-02.webp"],
+    "tech": ["Java", "Spring Boot", "Spring MVC", "H2 Database", "Thymeleaf", "Javascript"],
     "platforms": ["web"],
-    "link": "#",
-    "category": "Project"
+    "link": "https://github.com/ChelcRose/Project-LIBRA",
+    "category": "Web Application"
   }
 ]
