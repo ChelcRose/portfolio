@@ -1,17 +1,17 @@
 [
   {
     "title": "Kwenta",
-    "description": "A Philippine-focused personal finance web application for managing accounts, transactions, budgets, and savings goals. Built with secure authentication, user-specific financial data isolation, and transaction-based balance calculations.",
-    "images": ["kwenta-01.webp", "kwenta-02.webp"],
+    "description": "An AI-powered personal finance platform that combines natural-language expense tracking with smart budgeting, savings, and personalized financial insights.",
+    "images": ["kwenta-01.png"],
     "tech": ["C#", ".NET 10", "ASP.NET Core", "Blazor", "EF Core", "SQLite"],
     "platforms": ["web"],
-    "link": "#",
-    "category": "Full-Stack"
+    "link": "https://github.com/ChelcRose/Kwenta/",
+    "category": "Web Application"
   },
   {
     "title": "Project IMULAT",
     "description": "An AI-powered fact-checking platform that combines automated credibility scoring with peer review to verify user-submitted claims.",
-    "images": ["imulat-01.png", "imulat-02.webp"],
+    "images": ["imulat-01.png"],
     "tech": ["React.js", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Cohere API"],
     "platforms": ["web"],
     "link": "https://github.com/Lycoris21/Project-Imulat",
@@ -20,7 +20,7 @@
   {
     "title": "Project LIBRA",
     "description": "A full-stack library management system that streamlines book cataloging, borrowing, returns, and user management.",
-    "images": ["libra-01.png", "libra-02.webp"],
+    "images": ["libra-01.png"],
     "tech": ["Java", "Spring Boot", "Spring MVC", "H2 Database", "Thymeleaf", "Javascript"],
     "platforms": ["web"],
     "link": "https://github.com/ChelcRose/Project-LIBRA",
