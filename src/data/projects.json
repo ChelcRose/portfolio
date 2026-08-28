@@ -3,7 +3,15 @@
     "title": "Kwenta",
     "description": "An AI-powered personal finance platform that combines natural-language expense tracking with smart budgeting, savings, and personalized financial insights.",
     "images": ["kwenta-01.png"],
-    "tech": ["C#", ".NET 10", "ASP.NET Core", "Blazor", "EF Core", "SQLite"],
+      "tech": [
+    "C#",
+    ".NET 10",
+    "ASP.NET Core",
+    "Blazor",
+    "EF Core",
+    "SQLite",
+    "Gemini API"
+  ],
     "platforms": ["web"],
     "link": "https://github.com/ChelcRose/Kwenta/",
     "category": "Web Application"
